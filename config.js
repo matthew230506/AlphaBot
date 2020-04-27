@@ -24,20 +24,7 @@ const Warn = new warn_1.default();
 const welcome_1 = require('./commands/welcome');
 const Welcome = new welcome_1.default();
 exports.config = {
-	commands: [
-		'ban',
-		'kick',
-		'warn',
-		'welcome',
-		'buy',
-		'home',
-		'inventory',
-		'newgame',
-		'trader',
-		'survey',
-		'help',
-		'play'
-	],
+	commands: [ 'ban', 'kick', 'warn', 'welcome', 'buy', 'home', 'inventory', 'newgame', 'trader', 'survey', 'help' ],
 	commandshelp: [
 		Ban.help(),
 		Kick.help(),
