@@ -24,8 +24,6 @@ const Warn = new warn_1.default();
 const welcome_1 = require('./commands/welcome');
 const Welcome = new welcome_1.default();
 exports.config = {
-	//token: 'NjM0NzU1MzgxOTc3MDIyNTA3.XanOZw.sZGI6rUsLCTnS0HUF7v-YlyJ540',
-	//prefix: '?',
 	commands: [
 		'ban',
 		'kick',
