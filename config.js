@@ -23,8 +23,23 @@ const warn_1 = require('./commands/warn');
 const Warn = new warn_1.default();
 const welcome_1 = require('./commands/welcome');
 const Welcome = new welcome_1.default();
+const schule_1 = require('./commands/schule');
+const Schule = new schule_1.default();
 exports.config = {
-	commands: [ 'ban', 'kick', 'warn', 'welcome', 'buy', 'home', 'inventory', 'newgame', 'trader', 'survey', 'help' ],
+	commands: [
+		'ban',
+		'kick',
+		'warn',
+		'welcome',
+		'buy',
+		'home',
+		'inventory',
+		'newgame',
+		'trader',
+		'survey',
+		'help',
+		'schule'
+	],
 	commandshelp: [
 		Ban.help(),
 		Kick.help(),
@@ -36,7 +51,8 @@ exports.config = {
 		Newgame.help(),
 		Trader.help(),
 		Survey.help(),
-		Help.help()
+		Help.help(),
+		Schule.help()
 	],
 	Admin1: '<@503103781412798464>',
 	Admin2: '<@571747061566013442>',
