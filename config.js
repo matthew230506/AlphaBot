@@ -23,9 +23,9 @@ const warn_1 = require('./commands/warn');
 const Warn = new warn_1.default();
 const welcome_1 = require('./commands/welcome');
 const Welcome = new welcome_1.default();
-const schule_1 = require('./commands/schule');
-const Schule = new schule_1.default();
 exports.config = {
+	token: 'B2fmp8Xrdc3G-20q6bIpZIwGTvs11TFn',
+	prefix: '?',
 	commands: [
 		'ban',
 		'kick',
@@ -38,7 +38,7 @@ exports.config = {
 		'trader',
 		'survey',
 		'help',
-		'schule'
+		'play'
 	],
 	commandshelp: [
 		Ban.help(),
@@ -51,8 +51,7 @@ exports.config = {
 		Newgame.help(),
 		Trader.help(),
 		Survey.help(),
-		Help.help(),
-		Schule.help()
+		Help.help()
 	],
 	Admin1: '<@503103781412798464>',
 	Admin2: '<@571747061566013442>',
